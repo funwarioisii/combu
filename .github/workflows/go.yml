@@ -17,6 +17,8 @@ jobs:
       uses: actions/checkout@v1
 
     - name: Get dependencies
+      env:
+        GOPATH: $HOME/go/src
       run: make
     
     - name: Go Release Binary
