@@ -12,7 +12,7 @@ func main() {
 	var filename string
 	var parallel string
 	flag.StringVar(&filename, "f", "default", "Message")
-	flag.StringVar(&parallel, "p", "false", "parallel")
+	flag.StringVar(&parallel, "p", "true", "parallel")
 	flag.Parse()
 
 	args := flag.Args()
