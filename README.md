@@ -15,7 +15,7 @@ This target user is amateur machine-learning developer and run experiments on do
 
 ```terminal
 $ make 
-$ ./build/combu -file config/config.jsonnet run
+$ ./build/combu -f config/config.jsonnet run
 ```
 
 
