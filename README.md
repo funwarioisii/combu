@@ -12,8 +12,14 @@ This target user is amateur machine-learning developer and run experiments on do
 
  
 ## Getting started
+### downlowd binary
 
+You can download combu binary from [release branch](https://github.com/funwarioisii/combu/releases) and use it!
+
+### clone
 ```terminal
+$ git clone https://github.com/funwarioisii/combu
+$ cd combu
 $ make 
 $ ./build/combu -f config/config.jsonnet run
 ```
